@@ -45,6 +45,9 @@ gem "bootsnap", require: false
 gem "devise"
 gem "rails-i18n"
 gem "tty-spinner"
+gem "faker"
+gem "awesome_print"
+
 
 # Use Sass to process CSS
 # gem "sassc-rails"
