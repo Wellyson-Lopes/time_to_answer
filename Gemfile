@@ -49,7 +49,9 @@ gem "faker"
 gem "awesome_print"
 gem "kaminari"
 gem "kaminari-i18n"
-
+gem 'simple_form'
+gem "cocoon"
+gem 'jquery-rails'
 
 # Use Sass to process CSS
 # gem "sassc-rails"

@@ -1,4 +1,9 @@
 import { Application } from "@hotwired/stimulus"
+import "@nathanvda/cocoon"
+// app/javascript/packs/application.js
+
+import 'jquery';
+
 const application = Application.start()
 
 // Configure Stimulus development experience

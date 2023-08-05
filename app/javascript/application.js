@@ -3,7 +3,16 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 import $ from 'jquery'
+import 'jquery' // Importe o jQuery
+import 'cocoon-js' // Importe o script da gem cocoon
+
+
 import "notifyjs-browser"
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  cocoon();
+});
 
 // Faça o jQuery ficar disponível globalmente
 global.$ = global.jQuery = $;
